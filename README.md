@@ -4,28 +4,34 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CMO Performance Dashboard</title>
-<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
 <style>
   :root {
-    --bg: #0a0b0e;
-    --surface: #12141a;
-    --surface2: #1a1d26;
-    --border: #2a2d3a;
-    --accent: #e8ff47;
-    --accent2: #47c7ff;
-    --accent3: #ff6b6b;
-    --accent4: #a78bfa;
-    --text: #e8eaf0;
-    --muted: #6b7080;
-    --green: #4ade80;
-    --red: #f87171;
-    --amber: #fbbf24;
+    /* Citation Group Brand Palette */
+    --bg: #F5F6F8;
+    --surface: #FFFFFF;
+    --surface2: #ECEFF1;
+    --border: #DDE1E6;
+    --accent: #E91E63;
+    --accent2: #00BCD4;
+    --accent3: #D81B60;
+    --accent4: #9C27B0;
+    --text: #37474F;
+    --muted: #78909C;
+    --green: #00897B;
+    --red: #D81B60;
+    --amber: #FF6B35;
+    --pink: #E91E63;
+    --purple: #9C27B0;
+    --teal: #00BCD4;
+    --orange: #FF6B35;
+    --lgrey: #ECEFF1;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
     background: var(--bg);
     color: var(--text);
-    font-family: 'DM Mono', monospace;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
     min-height: 100vh;
     overflow-x: hidden;
   }
@@ -37,8 +43,9 @@
     z-index: 0;
   }
   header {
-    padding: 28px 40px 20px;
-    border-bottom: 1px solid var(--border);
+    padding: 20px 40px 18px;
+    background: linear-gradient(135deg, #E91E63 0%, #9C27B0 100%);
+    border-bottom: none;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -46,25 +53,25 @@
     z-index: 1;
   }
   .logo-area h1 {
-    font-family: 'Syne', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
     font-size: 11px;
     font-weight: 700;
     letter-spacing: 4px;
     text-transform: uppercase;
-    color: var(--accent);
+    color: rgba(255,255,255,0.75);
     margin-bottom: 6px;
   }
   .logo-area h2 {
-    font-family: 'Syne', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
     font-size: 26px;
-    font-weight: 800;
-    color: var(--text);
+    font-weight: 700;
+    color: #FFFFFF;
     line-height: 1;
   }
   .header-meta {
     text-align: right;
     font-size: 11px;
-    color: var(--muted);
+    color: rgba(255,255,255,0.75);
     line-height: 1.8;
   }
   .header-meta .live-dot {
@@ -87,33 +94,34 @@
   /* Navigation tabs */
   .tabs {
     display: flex;
-    gap: 2px;
+    gap: 4px;
     margin-bottom: 28px;
-    background: var(--surface);
+    background: var(--surface2);
     border: 1px solid var(--border);
-    border-radius: 6px;
-    padding: 4px;
+    border-radius: 8px;
+    padding: 5px;
     width: fit-content;
+    flex-wrap: wrap;
   }
   .tab {
-    padding: 8px 20px;
-    font-family: 'DM Mono', monospace;
-    font-size: 11px;
-    font-weight: 500;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
+    padding: 7px 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
     cursor: pointer;
-    border-radius: 4px;
-    transition: all .2s;
+    border-radius: 6px;
+    transition: all .18s;
     color: var(--muted);
     border: none;
     background: none;
   }
   .tab.active {
     background: var(--accent);
-    color: #0a0b0e;
+    color: #FFFFFF;
+    box-shadow: 0 2px 8px rgba(233,30,99,0.25);
   }
-  .tab:hover:not(.active) { color: var(--text); }
+  .tab:hover:not(.active) { color: var(--text); background: rgba(55,71,79,0.06); }
 
   .section { display: none; }
   .section.active { display: block; }
@@ -128,29 +136,31 @@
   .kpi {
     background: var(--surface);
     border: 1px solid var(--border);
+    border-left: 4px solid var(--kpi-color, var(--accent));
     border-radius: 8px;
     padding: 18px 20px;
     position: relative;
     overflow: hidden;
-    transition: border-color .2s;
+    transition: box-shadow .2s, transform .15s;
+    box-shadow: 0 1px 4px rgba(55,71,79,0.07);
   }
-  .kpi:hover { border-color: var(--accent); }
+  .kpi:hover { box-shadow: 0 4px 16px rgba(55,71,79,0.12); transform: translateY(-1px); }
   .kpi::before {
     content: '';
     position: absolute;
     top: 0; left: 0; right: 0;
-    height: 2px;
-    background: var(--kpi-color, var(--accent));
+    height: 0;
   }
   .kpi-label {
-    font-size: 10px;
-    letter-spacing: 2px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
     text-transform: uppercase;
     color: var(--muted);
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
   .kpi-value {
-    font-family: 'Syne', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
     font-size: 28px;
     font-weight: 800;
     line-height: 1;
@@ -173,8 +183,8 @@
     font-size: 10px;
     font-weight: 500;
   }
-  .badge.green { background: rgba(74,222,128,.15); color: var(--green); }
-  .badge.red { background: rgba(248,113,113,.15); color: var(--red); }
+  .badge.green { background: rgba(0,137,123,.12); color: var(--green); }
+  .badge.red { background: rgba(216,27,96,.12); color: var(--red); }
   .badge.amber { background: rgba(251,191,36,.15); color: var(--amber); }
 
   /* Charts */
@@ -248,7 +258,7 @@
     align-items: center;
     padding: 0 12px;
     font-size: 11px;
-    color: #0a0b0e;
+    color: #FFFFFF;
     font-weight: 600;
     animation: barIn 1.2s forwards;
   }
@@ -298,11 +308,11 @@
   .comparison-table tr:last-child td { border-bottom: none; }
   .comparison-table tr:hover td { background: rgba(232,255,71,.03); }
   .metric-name { color: var(--text); }
-  .metric-num { font-family: 'Syne', sans-serif; font-weight: 700; }
+  .metric-num { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-weight: 700; }
 
   /* Section header */
   .section-header {
-    font-family: 'Syne', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
     font-size: 14px;
     font-weight: 700;
     color: var(--text);
@@ -390,7 +400,7 @@
     margin-bottom: 4px;
   }
   .donut-value {
-    font-family: 'Syne', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
     font-size: 22px;
     font-weight: 800;
   }
@@ -477,23 +487,23 @@
       </div>
       <div class="kpi" style="--kpi-color:#4ade80">
         <div class="kpi-label">CHR Total Deals</div>
-        <div class="kpi-value">42</div>
+        <div class="kpi-value">46</div>
         <div class="kpi-sub">Jan 19 · Feb 23 <span class="badge red">↓ vs target</span></div>
       </div>
       <div class="kpi" style="--kpi-color:#a78bfa">
         <div class="kpi-label">CHR Total ACV</div>
-        <div class="kpi-value">$457K</div>
-        <div class="kpi-sub">Jan $187K · Feb $270K <span class="badge amber">mixed</span></div>
+        <div class="kpi-value">$514K</div>
+        <div class="kpi-sub">Jan $187K · Feb $327K <span class="badge green">↑ strong Feb</span></div>
       </div>
       <div class="kpi" style="--kpi-color:#ff6b6b">
         <div class="kpi-label">ISO Total Deals</div>
-        <div class="kpi-value">61</div>
-        <div class="kpi-sub">Jan 22 · Feb 39 <span class="badge green">↑ strong Feb</span></div>
+        <div class="kpi-value">68</div>
+        <div class="kpi-sub">Jan 22 · Feb 46 <span class="badge green">↑ strong Feb</span></div>
       </div>
       <div class="kpi" style="--kpi-color:#e8ff47">
         <div class="kpi-label">ISO Total ACV</div>
-        <div class="kpi-value">$294K</div>
-        <div class="kpi-sub">Jan $105K · Feb $190K <span class="badge amber">↓ vs target</span></div>
+        <div class="kpi-value">$342K</div>
+        <div class="kpi-sub">Jan $105K · Feb $238K <span class="badge amber">↓ vs target</span></div>
       </div>
       <div class="kpi" style="--kpi-color:#47c7ff">
         <div class="kpi-label">FoundU Sales</div>
@@ -502,8 +512,8 @@
       </div>
       <div class="kpi" style="--kpi-color:#4ade80">
         <div class="kpi-label">FoundU Revenue</div>
-        <div class="kpi-value">$369K</div>
-        <div class="kpi-sub">Jan $185K · Feb $184K <span class="badge green">↑ vs target</span></div>
+        <div class="kpi-value">$512K</div>
+        <div class="kpi-sub">Jan $185K · Feb $327K <span class="badge green">↑ outbound surge</span></div>
       </div>
     </div>
 
@@ -529,7 +539,7 @@
             <div class="funnel-step-label">Total Leads</div>
             <div class="funnel-bar-wrap">
               <div class="funnel-bar-track">
-                <div class="funnel-bar-fill" style="width:100%;background:var(--accent);color:#0a0b0e">5,441 actual</div>
+                <div class="funnel-bar-fill" style="width:100%;background:var(--accent);color:#FFFFFF">5,441 actual</div>
               </div>
               <div class="funnel-meta">Target ~6,683 | <span style="color:var(--amber)">82% of target</span></div>
             </div>
@@ -749,9 +759,9 @@
           </tr>
           <tr>
             <td class="metric-name">Sat → Deal</td>
-            <td><span class="metric-num" style="color:var(--accent2)">~24%</span></td>
-            <td><span class="metric-num" style="color:var(--amber)">~22%</span></td>
-            <td><span class="metric-num" style="color:var(--red)">~18%</span></td>
+            <td><span class="metric-num" style="color:var(--accent2)">24.6%</span></td>
+            <td><span class="metric-num" style="color:var(--red)">18.6%</span></td>
+            <td><span class="metric-num" style="color:var(--red)">16.1%</span></td>
             <td><span class="badge red">↓ Watch</span></td>
           </tr>
           <tr>
@@ -820,7 +830,7 @@
             <div class="funnel-step-label">Leads (Inb.)</div>
             <div class="funnel-bar-wrap">
               <div class="funnel-bar-track">
-                <div class="funnel-bar-fill" style="width:100%;background:var(--accent);color:#0a0b0e">Jan: 45 · Feb: 55</div>
+                <div class="funnel-bar-fill" style="width:100%;background:var(--accent);color:#FFFFFF">Jan: 45 · Feb: 55</div>
               </div>
             </div>
           </div>
@@ -861,7 +871,7 @@
             <div class="funnel-step-label">Leads (OB)</div>
             <div class="funnel-bar-wrap">
               <div class="funnel-bar-track">
-                <div class="funnel-bar-fill" style="width:100%;background:var(--accent);color:#0a0b0e">Jan: 14 · Feb: 39</div>
+                <div class="funnel-bar-fill" style="width:100%;background:var(--accent);color:#FFFFFF">Jan: 14 · Feb: 39</div>
               </div>
             </div>
           </div>
@@ -1018,7 +1028,7 @@
             <div class="funnel-step-label">PPC Leads</div>
             <div class="funnel-bar-wrap">
               <div class="funnel-bar-track">
-                <div class="funnel-bar-fill" style="width:100%;background:var(--accent);color:#0a0b0e">Jan: 86 · Feb: 92 (tgt 91–109)</div>
+                <div class="funnel-bar-fill" style="width:100%;background:var(--accent);color:#FFFFFF">Jan: 86 · Feb: 92 (tgt 91–109)</div>
               </div>
             </div>
           </div>
@@ -1060,7 +1070,7 @@
             <div class="funnel-step-label">OB Opps</div>
             <div class="funnel-bar-wrap">
               <div class="funnel-bar-track">
-                <div class="funnel-bar-fill" style="width:100%;background:var(--accent);color:#0a0b0e">Jan: 55 · Feb: 50</div>
+                <div class="funnel-bar-fill" style="width:100%;background:var(--accent);color:#FFFFFF">Jan: 55 · Feb: 50</div>
               </div>
             </div>
           </div>
@@ -1757,7 +1767,7 @@ const acvContainer = document.getElementById('acv-chart');
 acvData.forEach(d => {
   const actPct = (d.act/maxACV*100).toFixed(1);
   const budPct = (d.bud/maxACV*100).toFixed(1);
-  const color = d.act >= d.bud ? 'var(--green)' : 'var(--red)';
+  const color = d.act >= d.bud ? '#00897B' : '#D81B60';
   const pct = ((d.act/d.bud-1)*100).toFixed(0);
   const label = d.act >= d.bud ? `+${pct}%` : `${pct}%`;
   acvContainer.innerHTML += `
@@ -1821,7 +1831,7 @@ cacYoYData.forEach(d => {
   const p25 = (d.cy25/maxR*100).toFixed(0);
   const p26 = (d.cy26/maxR*100).toFixed(0);
   const trend = d.cy26 >= d.cy25 ? `+${((d.cy26/d.cy25-1)*100).toFixed(0)}%` : `${((d.cy26/d.cy25-1)*100).toFixed(0)}%`;
-  const tc = d.cy26 >= d.cy25 ? 'var(--green)' : 'var(--red)';
+  const tc = d.cy26 >= d.cy25 ? '#00897B' : '#D81B60';
   cacYoYEl.innerHTML += `
     <div style="margin-bottom:12px">
       <div style="font-size:10px;color:var(--muted);margin-bottom:4px">${d.brand}</div>
@@ -1892,8 +1902,8 @@ chrCACMonthly.forEach((d, i) => {
   const cac = d.spend / d.deals;
   const ratio = (acvByMonth[i]/d.deals) / cac;
   const cacPct = (cac/maxCAC*100).toFixed(0);
-  const cacColor = cac > 5000 ? 'var(--red)' : cac > 4000 ? 'var(--amber)' : 'var(--green)';
-  const ratioColor = ratio > 3 ? 'var(--green)' : ratio > 2 ? 'var(--accent2)' : 'var(--red)';
+  const cacColor = cac > 5000 ? '#D81B60' : cac > 4000 ? 'var(--amber)' : '#00897B';
+  const ratioColor = ratio > 3 ? '#00897B' : ratio > 2 ? 'var(--accent2)' : '#D81B60';
   chrCACEl.innerHTML += `
     <div style="margin-bottom:5px">
       <div style="font-size:9px;color:var(--muted);margin-bottom:2px">${d.m}</div>
@@ -1977,9 +1987,9 @@ aacvMonthlyData.forEach(d => {
 // CY26 vs CY25 YoY AACV chart
 const aacvYoYData = [
   { period:'Jan CY25', val:7859, color:'var(--muted)', label:'CY25' },
-  { period:'Jan CY26', val:9837, color:'var(--green)', label:'CY26 +25%' },
+  { period:'Jan CY26', val:9837, color:'#00897B', label:'CY26 +25%' },
   { period:'Feb CY25', val:15103, color:'var(--muted)', label:'CY25' },
-  { period:'Feb CY26', val:11743, color:'var(--red)', label:'CY26 -22%' },
+  { period:'Feb CY26', val:11743, color:'#D81B60', label:'CY26 -22%' },
 ];
 const maxYoY = Math.max(...aacvYoYData.map(d=>d.val));
 const aacvYoYEl = document.getElementById('aacv-yoy-chart');
@@ -2016,8 +2026,8 @@ const aacvSeasonEl = document.getElementById('aacv-seasonal-chart');
 aacvSeasonalData.forEach(d => {
   const ap = (d.aacv/maxAACVS*100).toFixed(1);
   const dp = (d.deals/maxDeals*100).toFixed(1);
-  const acolor = d.aacv >= 11000 ? 'var(--green)' : d.aacv >= 9000 ? 'var(--amber)' : 'var(--red)';
-  const dcolor = d.deals >= 37 ? 'var(--accent2)' : d.deals >= 30 ? 'var(--muted)' : 'var(--red)';
+  const acolor = d.aacv >= 11000 ? '#00897B' : d.aacv >= 9000 ? 'var(--amber)' : '#D81B60';
+  const dcolor = d.deals >= 37 ? 'var(--accent2)' : d.deals >= 30 ? 'var(--muted)' : '#D81B60';
   aacvSeasonEl.innerHTML += `
     <div style="margin-bottom:5px">
       <div style="font-size:10px;color:var(--muted);margin-bottom:2px">${d.m}</div>
@@ -2045,7 +2055,7 @@ const maxR24 = Math.max(...rolling2024.map(d=>d.val));
 const r24El = document.getElementById('foundo-rolling-2024');
 rolling2024.forEach(d => {
   const p = (d.val/maxR24*100).toFixed(1);
-  const c = d.val >= 50 ? 'var(--green)' : d.val >= 43 ? 'var(--amber)' : 'var(--red)';
+  const c = d.val >= 50 ? '#00897B' : d.val >= 43 ? 'var(--amber)' : '#D81B60';
   r24El.innerHTML += `
     <div class="bar-row" style="margin-bottom:5px">
       <div class="bar-label" style="font-size:10px">${d.w}</div>
@@ -2064,7 +2074,7 @@ const maxR25 = 56;
 const r25El = document.getElementById('foundo-rolling-2025');
 rolling2025.forEach(d => {
   const p = (d.val/maxR25*100).toFixed(1);
-  const c = d.val >= 50 ? 'var(--green)' : d.val >= 40 ? 'var(--amber)' : 'var(--red)';
+  const c = d.val >= 50 ? '#00897B' : d.val >= 40 ? 'var(--amber)' : '#D81B60';
   r25El.innerHTML += `
     <div class="bar-row" style="margin-bottom:5px">
       <div class="bar-label" style="font-size:10px">${d.w}</div>
@@ -2104,8 +2114,8 @@ fouHistoryData.forEach(d => {
       <div style="display:flex;flex-direction:column;gap:2px">
         ${getBar(d.y23,'#6b7080')}
         ${getBar(d.y24,'var(--accent2)')}
-        ${getBar(d.y25,'var(--accent)')}
-        ${getBar(d.y26,'var(--green)')}
+        ${getBar(d.y25,'#E91E63')}
+        ${getBar(d.y26,'#00897B')}
       </div>
     </div>`;
 });
@@ -2124,7 +2134,7 @@ const fouYoYEl = document.getElementById('foundo-yoy-chart');
 fouYoYData.forEach(d => {
   const bars = [
     {val:d.y23, c:'#6b7080'}, {val:d.y24, c:'var(--accent2)'},
-    {val:d.y25, c:'var(--accent)'}, {val:d.y26, c:'var(--green)'}
+    {val:d.y25, c:'#E91E63'}, {val:d.y26, c:'#00897B'}
   ];
   fouYoYEl.innerHTML += `
     <div style="margin-bottom:8px">
@@ -2152,8 +2162,8 @@ const brandData = [
 const bvtContainer = document.getElementById('brand-vs-target-chart');
 bvtContainer.innerHTML = '<div class="bar-chart">';
 brandData.forEach(d => {
-  const chrColor = d.chr >= 1 ? 'var(--green)' : d.chr >= 0.85 ? 'var(--amber)' : 'var(--red)';
-  const isoColor = d.iso >= 1 ? 'var(--green)' : d.iso >= 0.85 ? 'var(--amber)' : 'var(--red)';
+  const chrColor = d.chr >= 1 ? '#00897B' : d.chr >= 0.85 ? 'var(--amber)' : '#D81B60';
+  const isoColor = d.iso >= 1 ? '#00897B' : d.iso >= 0.85 ? 'var(--amber)' : '#D81B60';
   bvtContainer.innerHTML += `
     <div class="bar-row">
       <div class="bar-label">${d.m}</div>
