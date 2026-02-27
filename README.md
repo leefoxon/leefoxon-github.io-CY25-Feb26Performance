@@ -475,42 +475,42 @@
     <div class="section-header">CY26 YTD Performance Snapshot (Jan–Feb)</div>
 
     <div class="kpi-row">
-      <div class="kpi" style="--kpi-color:#e8ff47">
+      <div class="kpi" style="--kpi-color:#E91E63">
         <div class="kpi-label">CHR Inbound Spend</div>
         <div class="kpi-value">$252K</div>
         <div class="kpi-sub"><span class="badge amber">↓ 5.5% vs target</span> YTD</div>
       </div>
-      <div class="kpi" style="--kpi-color:#47c7ff">
+      <div class="kpi" style="--kpi-color:#00BCD4">
         <div class="kpi-label">CHR Total Opps</div>
         <div class="kpi-value">303</div>
         <div class="kpi-sub">Jan 140 · Feb 163 <span class="badge green">↑ vs target</span></div>
       </div>
-      <div class="kpi" style="--kpi-color:#4ade80">
+      <div class="kpi" style="--kpi-color:#00897B">
         <div class="kpi-label">CHR Total Deals</div>
         <div class="kpi-value">46</div>
         <div class="kpi-sub">Jan 19 · Feb 23 <span class="badge red">↓ vs target</span></div>
       </div>
-      <div class="kpi" style="--kpi-color:#a78bfa">
+      <div class="kpi" style="--kpi-color:#9C27B0">
         <div class="kpi-label">CHR Total ACV</div>
         <div class="kpi-value">$514K</div>
         <div class="kpi-sub">Jan $187K · Feb $327K <span class="badge green">↑ strong Feb</span></div>
       </div>
-      <div class="kpi" style="--kpi-color:#ff6b6b">
+      <div class="kpi" style="--kpi-color:#FF6B35">
         <div class="kpi-label">ISO Total Deals</div>
         <div class="kpi-value">68</div>
         <div class="kpi-sub">Jan 22 · Feb 46 <span class="badge green">↑ strong Feb</span></div>
       </div>
-      <div class="kpi" style="--kpi-color:#e8ff47">
+      <div class="kpi" style="--kpi-color:#E91E63">
         <div class="kpi-label">ISO Total ACV</div>
         <div class="kpi-value">$342K</div>
         <div class="kpi-sub">Jan $105K · Feb $238K <span class="badge amber">↓ vs target</span></div>
       </div>
-      <div class="kpi" style="--kpi-color:#47c7ff">
+      <div class="kpi" style="--kpi-color:#00BCD4">
         <div class="kpi-label">FoundU Sales</div>
         <div class="kpi-value">28</div>
         <div class="kpi-sub">Jan 15 · Feb 13 <span class="badge green">↑ vs target</span></div>
       </div>
-      <div class="kpi" style="--kpi-color:#4ade80">
+      <div class="kpi" style="--kpi-color:#00897B">
         <div class="kpi-label">FoundU Revenue</div>
         <div class="kpi-value">$512K</div>
         <div class="kpi-sub">Jan $185K · Feb $327K <span class="badge green">↑ outbound surge</span></div>
@@ -585,7 +585,7 @@
 
     <div class="section-header">Key Commercial Insights</div>
     <div class="insights-grid">
-      <div class="insight" style="--insight-color:#e8ff47">
+      <div class="insight" style="--insight-color:#E91E63">
         <div class="insight-title">🏆 Bright Spot</div>
         <div class="insight-text">CHR AU inbound overperformed in Feb–Jun 25, with spend consistently exceeding targets by 13–21%. Opp-to-sat rates held at 70%+ throughout CY25.</div>
       </div>
@@ -593,11 +593,11 @@
         <div class="insight-title">⚠ Revenue Shortfall</div>
         <div class="insight-text">CY25 ACV missed budget in 7 of 12 months. H2 was particularly soft — Aug to Dec all underdelivered, with Nov at only 48% of budget. Total ACV $4.1M vs $5.5M budgeted.</div>
       </div>
-      <div class="insight" style="--insight-color:#47c7ff">
+      <div class="insight" style="--insight-color:#00BCD4">
         <div class="insight-title">🔁 ISO Mixed Signal</div>
         <div class="insight-text">ISO cert deals were healthy all year (10–28/month) but ACV per deal trended down. PPC CPL improved mid-year from $636 to $431 by Feb 26.</div>
       </div>
-      <div class="insight" style="--insight-color:#a78bfa">
+      <div class="insight" style="--insight-color:#9C27B0">
         <div class="insight-title">📈 FoundU Gaining</div>
         <div class="insight-text">FoundU CY26 YTD shows strong conversion rates: Inbound Lead-to-Meeting 36%, Sat-to-Sale 69%. Revenue $369K in 2 months vs $889K total CY25.</div>
       </div>
@@ -605,7 +605,7 @@
         <div class="insight-title">💰 PPC ROAS Watch</div>
         <div class="insight-text">2024 PPC ROAS (TCV) was 2.75x across $1.2M spend. Q1 CY25 ROAS tracking at 2.55x on $345K. Attribution only 54% tracked — real ROAS likely higher.</div>
       </div>
-      <div class="insight" style="--insight-color:#4ade80">
+      <div class="insight" style="--insight-color:#00897B">
         <div class="insight-title">🎯 CY26 Early Signal</div>
         <div class="insight-text">CHR inbound opps 303 YTD (Jan–Feb 26) well above pace. But deal conversion is lagging target with only 42 deals vs 52 target. Pipeline is rich — focus on close rate.</div>
       </div>
@@ -617,35 +617,35 @@
     <div class="section-header">HR & Safety (Citation HR AU/NZ) — Full Funnel Analysis</div>
 
     <div class="kpi-row">
-      <div class="kpi" style="--kpi-color:#e8ff47">
+      <div class="kpi" style="--kpi-color:#E91E63">
         <div class="kpi-label">CY25 Total Spend</div>
         <div class="kpi-value">$1.66M</div>
         <div class="kpi-sub"><span class="badge green">+5.2% vs budget</span></div>
       </div>
-      <div class="kpi" style="--kpi-color:#47c7ff">
+      <div class="kpi" style="--kpi-color:#00BCD4">
         <div class="kpi-label">CY25 Total ACV</div>
         <div class="kpi-value">$3.86M</div>
         <div class="kpi-sub"><span class="badge red">-9.3% vs budget</span> est. excl. NZ</div>
       </div>
-      <div class="kpi" style="--kpi-color:#4ade80">
+      <div class="kpi" style="--kpi-color:#00897B">
         <div class="kpi-label">CY25 Total Deals</div>
         <div class="kpi-value">376</div>
         <div class="kpi-sub"><span class="badge amber">~88% of target</span></div>
       </div>
-      <div class="kpi" style="--kpi-color:#a78bfa">
+      <div class="kpi" style="--kpi-color:#9C27B0">
         <div class="kpi-label">CY25 Inbound CPL</div>
         <div class="kpi-value">~$1,700</div>
         <div class="kpi-sub">PPC primary channel</div>
       </div>
-      <div class="kpi" style="--kpi-color:#ff6b6b">
+      <div class="kpi" style="--kpi-color:#FF6B35">
         <div class="kpi-label">CY26 Jan Deals</div>
         <div class="kpi-value">19</div>
         <div class="kpi-sub"><span class="badge green">↑ vs target 13</span></div>
       </div>
-      <div class="kpi" style="--kpi-color:#e8ff47">
+      <div class="kpi" style="--kpi-color:#E91E63">
         <div class="kpi-label">CY26 Feb Deals</div>
-        <div class="kpi-value">23</div>
-        <div class="kpi-sub"><span class="badge red">↓ vs target 39</span></div>
+        <div class="kpi-value">27</div>
+        <div class="kpi-sub"><span class="badge amber">↓ vs target 39</span></div>
       </div>
     </div>
 
@@ -788,32 +788,32 @@
     <div class="section-header">FoundU — Payroll Platform Performance</div>
 
     <div class="kpi-row">
-      <div class="kpi" style="--kpi-color:#e8ff47">
+      <div class="kpi" style="--kpi-color:#E91E63">
         <div class="kpi-label">CY25 Total Spend</div>
         <div class="kpi-value">$889K</div>
         <div class="kpi-sub"><span class="badge red">-3.1% vs $918K budget</span></div>
       </div>
-      <div class="kpi" style="--kpi-color:#47c7ff">
+      <div class="kpi" style="--kpi-color:#00BCD4">
         <div class="kpi-label">CY26 Jan Spend</div>
         <div class="kpi-value">$65.5K</div>
         <div class="kpi-sub"><span class="badge green">+0.7% vs target</span></div>
       </div>
-      <div class="kpi" style="--kpi-color:#4ade80">
+      <div class="kpi" style="--kpi-color:#00897B">
         <div class="kpi-label">CY26 Feb Spend</div>
         <div class="kpi-value">$67.8K</div>
         <div class="kpi-sub"><span class="badge amber">-3.2% vs target</span></div>
       </div>
-      <div class="kpi" style="--kpi-color:#a78bfa">
+      <div class="kpi" style="--kpi-color:#9C27B0">
         <div class="kpi-label">CY26 Jan Sales</div>
         <div class="kpi-value">15</div>
         <div class="kpi-sub">Revenue $185K <span class="badge green">↑ vs $132K target</span></div>
       </div>
-      <div class="kpi" style="--kpi-color:#ff6b6b">
+      <div class="kpi" style="--kpi-color:#FF6B35">
         <div class="kpi-label">CY26 Feb Sales</div>
         <div class="kpi-value">13</div>
         <div class="kpi-sub">Revenue $184K <span class="badge amber">↓ vs $232K target</span></div>
       </div>
-      <div class="kpi" style="--kpi-color:#e8ff47">
+      <div class="kpi" style="--kpi-color:#E91E63">
         <div class="kpi-label">2024 PPC ROAS</div>
         <div class="kpi-value">2.75x</div>
         <div class="kpi-sub">$1.2M spend → $3.3M TCV</div>
@@ -968,7 +968,7 @@
     </div>
 
     <div class="insights-grid">
-      <div class="insight" style="--insight-color:#e8ff47">
+      <div class="insight" style="--insight-color:#E91E63">
         <div class="insight-title">Outbound Engine</div>
         <div class="insight-text">Outbound is delivering disproportionately high close rates (100%+ sat-to-sale in Jan). Feb outbound generated 39 leads with 9 sales — 23% end-to-end conversion. This is a key growth lever.</div>
       </div>
@@ -976,7 +976,7 @@
         <div class="insight-title">MVF Efficiency Gap</div>
         <div class="insight-text">MVF is generating volume at low CPL ($478–500) but converting poorly to sales. 18 MVF leads in Jan produced only 1 sale. Consider lead quality review or better sales handoff process.</div>
       </div>
-      <div class="insight" style="--insight-color:#47c7ff">
+      <div class="insight" style="--insight-color:#00BCD4">
         <div class="insight-title">AACV Trend</div>
         <div class="insight-text">Average ACV per FoundU deal CY26: Jan $12,314, Feb $14,149. Both ahead of the CY25 average CPL-derived target of $11,039. Deal quality is improving.</div>
       </div>
@@ -988,32 +988,32 @@
     <div class="section-header">ISO Certification & NDIS — Performance Overview</div>
 
     <div class="kpi-row">
-      <div class="kpi" style="--kpi-color:#e8ff47">
+      <div class="kpi" style="--kpi-color:#E91E63">
         <div class="kpi-label">ISO CY25 Spend</div>
         <div class="kpi-value">$628K</div>
         <div class="kpi-sub"><span class="badge green">+2.9% vs $611K budget</span></div>
       </div>
-      <div class="kpi" style="--kpi-color:#47c7ff">
+      <div class="kpi" style="--kpi-color:#00BCD4">
         <div class="kpi-label">ISO CY25 Total Deals</div>
         <div class="kpi-value">175</div>
         <div class="kpi-sub">Online + Offline combined</div>
       </div>
-      <div class="kpi" style="--kpi-color:#4ade80">
+      <div class="kpi" style="--kpi-color:#00897B">
         <div class="kpi-label">ISO CY26 Jan Deals</div>
         <div class="kpi-value">22</div>
         <div class="kpi-sub"><span class="badge red">vs target 27 — 81%</span></div>
       </div>
-      <div class="kpi" style="--kpi-color:#a78bfa">
+      <div class="kpi" style="--kpi-color:#9C27B0">
         <div class="kpi-label">ISO CY26 Feb Deals</div>
         <div class="kpi-value">39</div>
         <div class="kpi-sub"><span class="badge amber">vs target 39 — on target</span></div>
       </div>
-      <div class="kpi" style="--kpi-color:#ff6b6b">
+      <div class="kpi" style="--kpi-color:#FF6B35">
         <div class="kpi-label">ISO CY26 Jan ACV</div>
         <div class="kpi-value">$105K</div>
         <div class="kpi-sub"><span class="badge red">vs $141K target — 74%</span></div>
       </div>
-      <div class="kpi" style="--kpi-color:#e8ff47">
+      <div class="kpi" style="--kpi-color:#E91E63">
         <div class="kpi-label">ISO CY26 Feb ACV</div>
         <div class="kpi-value">$190K</div>
         <div class="kpi-sub"><span class="badge amber">vs $205K target — 92%</span></div>
@@ -1197,7 +1197,7 @@
     </div>
 
     <div class="insights-grid">
-      <div class="insight" style="--insight-color:#e8ff47">
+      <div class="insight" style="--insight-color:#E91E63">
         <div class="insight-title">Outbound Dominance</div>
         <div class="insight-text">ISO offline/partner channel generates 57% of deals — the tracker labels this "Offline" and it likely reflects partner-referred and offline-sourced leads rather than BDM cold outreach. Feb outbound deals (25) doubled Jan (15) — key acceleration driver heading into Q1 2026.</div>
       </div>
@@ -1205,7 +1205,7 @@
         <div class="insight-title">PPC Sat→Deal Gap</div>
         <div class="insight-text">ISO PPC funnel has strong lead-to-opp rates (~67%) but Sat-to-Deal is only 14% vs 20% target. 36 meetings in Jan produced only 5 deals — a major conversion leak at the bottom of the funnel.</div>
       </div>
-      <div class="insight" style="--insight-color:#4ade80">
+      <div class="insight" style="--insight-color:#00897B">
         <div class="insight-title">Refer & Earn Upside</div>
         <div class="insight-text">Feb saw 4 R&E deals worth $24K ACV with essentially zero acquisition cost. The program is nascent — scaling investment here could yield high-ROI growth with minimal incremental spend.</div>
       </div>
@@ -1217,32 +1217,32 @@
     <div class="section-header">Marketing Efficiency & PPC Performance</div>
 
     <div class="kpi-row">
-      <div class="kpi" style="--kpi-color:#e8ff47">
+      <div class="kpi" style="--kpi-color:#E91E63">
         <div class="kpi-label">2024 PPC ROAS (TCV)</div>
         <div class="kpi-value">2.75x</div>
         <div class="kpi-sub">$1.21M spend → $3.32M TCV</div>
       </div>
-      <div class="kpi" style="--kpi-color:#47c7ff">
+      <div class="kpi" style="--kpi-color:#00BCD4">
         <div class="kpi-label">Q1 CY25 PPC ROAS</div>
         <div class="kpi-value">2.55x</div>
         <div class="kpi-sub">$345K spend → $880K TCV</div>
       </div>
-      <div class="kpi" style="--kpi-color:#4ade80">
+      <div class="kpi" style="--kpi-color:#00897B">
         <div class="kpi-label">CHR CPL (CY25 avg)</div>
         <div class="kpi-value">$1,800</div>
         <div class="kpi-sub">Range $1,430–$2,175</div>
       </div>
-      <div class="kpi" style="--kpi-color:#a78bfa">
+      <div class="kpi" style="--kpi-color:#9C27B0">
         <div class="kpi-label">ISO CPL (CY25 avg)</div>
         <div class="kpi-value">$630</div>
         <div class="kpi-sub">Range $431–$694</div>
       </div>
-      <div class="kpi" style="--kpi-color:#ff6b6b">
+      <div class="kpi" style="--kpi-color:#FF6B35">
         <div class="kpi-label">Attribution Coverage</div>
         <div class="kpi-value">54%</div>
         <div class="kpi-sub">~15–20% untracked in CHR/ISO</div>
       </div>
-      <div class="kpi" style="--kpi-color:#e8ff47">
+      <div class="kpi" style="--kpi-color:#E91E63">
         <div class="kpi-label">CY25 Avg aACV CHR</div>
         <div class="kpi-value">~$8K</div>
         <div class="kpi-sub">CY26 trending ~$10–14K</div>
@@ -1286,19 +1286,19 @@
 
     <div class="section-header">Strategic Recommendations</div>
     <div class="insights-grid">
-      <div class="insight" style="--insight-color:#e8ff47">
+      <div class="insight" style="--insight-color:#E91E63">
         <div class="insight-title">1 — Standardise Attribution Tracking</div>
         <div class="insight-text">CHR/ISO: ~15–20% of leads untracked. FoundU payroll recognised via ELM in HubSpot, not standard lead attribution. Standardise UTM tagging and CRM source fields across all brands.</div>
       </div>
-      <div class="insight" style="--insight-color:#47c7ff">
+      <div class="insight" style="--insight-color:#00BCD4">
         <div class="insight-title">2 — Sat→Deal Is The Leak</div>
         <div class="insight-text">ISO PPC sat-to-deal is 14% vs 20% target; CHR declining from 24% to 18% in CY26. Pipeline is healthy — the problem is conversion at close. Sales coaching and process audit needed.</div>
       </div>
-      <div class="insight" style="--insight-color:#4ade80">
+      <div class="insight" style="--insight-color:#00897B">
         <div class="insight-title">3 — Double Down on Outbound</div>
         <div class="insight-text">Across all brands, outbound delivers 2–3x higher close rates than inbound at equivalent or lower cost. Both FoundU and ISO outbound are gaining momentum — invest in BDM headcount and sequences.</div>
       </div>
-      <div class="insight" style="--insight-color:#a78bfa">
+      <div class="insight" style="--insight-color:#9C27B0">
         <div class="insight-title">4 — CHR CPL Seasonal Pattern</div>
         <div class="insight-text">CHR PPC CPL peaks in Aug–Oct ($1,900–2,175) and troughs in May ($1,401) and Dec ($1,431). Reallocate budget to off-peak months for efficiency gains of 30%+.</div>
       </div>
@@ -1460,110 +1460,178 @@
 
 <!-- FOUNDO ROLLING 3-MONTH TAB -->
 <div id="foundo-rolling" class="section">
+
+  <!-- Section title -->
   <div class="section-header">
     <div class="section-title">FoundU — Rolling 3-Month Analysis</div>
     <div class="section-subtitle">90-day sales cycle adjusted view · 2023–2026 momentum tracking</div>
   </div>
 
-  <!-- Key framing note -->
+  <!-- ── KEY INSIGHTS PANEL (prominent, top of section) ─────────────────── -->
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-bottom:28px">
+    <div style="background:linear-gradient(135deg,#E91E63,#9C27B0);border-radius:10px;padding:20px;color:#fff">
+      <div style="font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;opacity:.8;margin-bottom:10px">📈 Key Insight</div>
+      <div style="font-size:15px;font-weight:700;line-height:1.4;margin-bottom:8px">Outbound is driving deal quality, not just volume</div>
+      <div style="font-size:12px;opacity:.9;line-height:1.6">Feb AACV $25.2K — up 2× on Jan — driven by outbound mix shift (11 of 13 deals). Fewer deals, significantly higher value per deal.</div>
+    </div>
+    <div style="background:linear-gradient(135deg,#00897B,#00BCD4);border-radius:10px;padding:20px;color:#fff">
+      <div style="font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;opacity:.8;margin-bottom:10px">🔁 Pipeline Lag Warning</div>
+      <div style="font-size:15px;font-weight:700;line-height:1.4;margin-bottom:8px">Jan–Feb closes reflect Oct–Nov CY25 activity</div>
+      <div style="font-size:12px;opacity:.9;line-height:1.6">With a 90-day cycle, today's pipeline seeds Apr–May revenue. If Feb–Mar outbound activity holds, Q2 should accelerate significantly.</div>
+    </div>
+    <div style="background:linear-gradient(135deg,#FF6B35,#E91E63);border-radius:10px;padding:20px;color:#fff">
+      <div style="font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;opacity:.8;margin-bottom:10px">🎯 CY26 Trajectory</div>
+      <div style="font-size:15px;font-weight:700;line-height:1.4;margin-bottom:8px">$3.1M implied run rate — 3.4× CY25 pace</div>
+      <div style="font-size:12px;opacity:.9;line-height:1.6">Jan+Feb = $512K. If outbound momentum sustains, CY26 could exceed CY25 full year ($889K) by July. Jan CY26 already best Jan on record.</div>
+    </div>
+  </div>
+
+  <!-- ── FRAMING NOTE ─────────────────────────────────────────────────────── -->
   <div class="insight" style="--insight-color:var(--accent2);margin-bottom:28px">
-    <div class="insight-title">Why Rolling 3-Month Matters for FoundU</div>
-    <div class="insight-text">With a ~90-day sales cycle, any single month's closed revenue reflects activity that started 3 months prior. Monthly snapshots create false reads — a strong Jan close was seeded in October. Rolling 3-month windows smooth this lag, align revenue to the actual marketing and SDR activity that generated it, and give a more accurate read on pipeline momentum and CAC efficiency.</div>
+    <div class="insight-title">Why Rolling 3-Month Analysis?</div>
+    <div class="insight-text">FoundU has a ~90-day sales cycle. Any single month's closed revenue reflects pipeline activity that started ~3 months prior. Monthly snapshots create false reads — a strong Jan close was seeded in October. Rolling 3-month windows smooth this lag, align revenue to the marketing and SDR activity that generated it, and give a truer read on momentum and CAC efficiency.</div>
   </div>
 
-  <!-- Rolling KPI cards -->
-  <div class="kpi-grid" style="grid-template-columns:repeat(4,1fr);margin-bottom:32px">
-    <div class="kpi-card">
-      <div class="kpi-label">2024 Peak Rolling Window</div>
-      <div class="kpi-value" style="color:var(--accent)">56</div>
-      <div class="kpi-sub">Sales in May–Jul & Jun–Aug windows — cycle peak</div>
+  <!-- ── KPI STATS ROW ───────────────────────────────────────────────────── -->
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:28px">
+    <div class="kpi-card" style="text-align:center;padding:20px">
+      <div class="kpi-label" style="margin-bottom:8px">2024 Peak Rolling</div>
+      <div class="kpi-value" style="color:var(--accent);font-size:36px">56</div>
+      <div class="kpi-sub" style="margin-top:6px;text-align:center">sales · May–Jul & Jun–Aug windows</div>
     </div>
-    <div class="kpi-card">
-      <div class="kpi-label">2024 Avg Rolling (3mo)</div>
-      <div class="kpi-value" style="color:var(--accent2)">48.9</div>
-      <div class="kpi-sub">Per rolling window · Mar–Dec</div>
+    <div class="kpi-card" style="text-align:center;padding:20px">
+      <div class="kpi-label" style="margin-bottom:8px">2024 Avg Rolling</div>
+      <div class="kpi-value" style="color:var(--accent2);font-size:36px">48.9</div>
+      <div class="kpi-sub" style="margin-top:6px;text-align:center">per 3-month window · Mar–Dec</div>
     </div>
-    <div class="kpi-card">
-      <div class="kpi-label">2025 H1 Avg Rolling (3mo)</div>
-      <div class="kpi-value" style="color:var(--green)">44.3</div>
-      <div class="kpi-sub">Per rolling window · Mar–Jun · slightly below 2024 pace</div>
+    <div class="kpi-card" style="text-align:center;padding:20px">
+      <div class="kpi-label" style="margin-bottom:8px">2025 H1 Avg Rolling</div>
+      <div class="kpi-value" style="color:var(--green);font-size:36px">44.3</div>
+      <div class="kpi-sub" style="margin-top:6px;text-align:center">per 3-month window · slightly below 2024</div>
     </div>
-    <div class="kpi-card">
-      <div class="kpi-label">2026 YTD Revenue Run Rate</div>
-      <div class="kpi-value" style="color:var(--accent)">$2.2M</div>
-      <div class="kpi-sub">Implied annual from Jan–Feb ($369K × 6) — 2.5× CY25</div>
+    <div class="kpi-card" style="text-align:center;padding:20px">
+      <div class="kpi-label" style="margin-bottom:8px">CY26 YTD Run Rate</div>
+      <div class="kpi-value" style="color:var(--pink);font-size:36px">$3.1M</div>
+      <div class="kpi-sub" style="margin-top:6px;text-align:center">implied annual · 3.4× CY25 pace</div>
     </div>
   </div>
 
-  <!-- Rolling 3-month sales chart -->
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:32px">
-    <div class="kpi-card" style="padding:24px">
-      <div class="kpi-label" style="margin-bottom:16px">Rolling 3-Month Sales — 2024 (Full Year)</div>
+  <!-- ── CY26 ACTUALS ────────────────────────────────────────────────────── -->
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:28px">
+    <div class="kpi-card" style="padding:24px;border-left:4px solid #E91E63">
+      <div class="kpi-label" style="color:#E91E63;margin-bottom:14px">January 2026</div>
+      <div style="display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:16px">
+        <div>
+          <div style="font-size:36px;font-weight:800;color:#E91E63;line-height:1">$184.7K</div>
+          <div style="font-size:12px;color:var(--muted);margin-top:4px">15 sales closed</div>
+        </div>
+        <div style="text-align:right">
+          <div style="font-size:20px;font-weight:700;color:var(--text)">$12.3K</div>
+          <div style="font-size:11px;color:var(--muted)">AACV per deal</div>
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+        <div style="background:rgba(233,30,99,0.06);padding:10px 12px;border-radius:6px">
+          <div style="font-size:10px;color:var(--muted);margin-bottom:4px">INBOUND</div>
+          <div style="font-size:18px;font-weight:700;color:var(--text)">9 <span style="font-size:13px;color:var(--muted)">deals</span></div>
+          <div style="font-size:11px;color:var(--muted)">$125.7K ACV</div>
+        </div>
+        <div style="background:rgba(0,137,123,0.06);padding:10px 12px;border-radius:6px">
+          <div style="font-size:10px;color:var(--muted);margin-bottom:4px">OUTBOUND</div>
+          <div style="font-size:18px;font-weight:700;color:var(--text)">6 <span style="font-size:13px;color:var(--muted)">deals</span></div>
+          <div style="font-size:11px;color:var(--muted)">$59.0K ACV</div>
+        </div>
+      </div>
+    </div>
+    <div class="kpi-card" style="padding:24px;border-left:4px solid #00897B">
+      <div class="kpi-label" style="color:#00897B;margin-bottom:14px">February 2026 <span style="margin-left:8px;font-size:10px;background:rgba(0,137,123,0.1);color:#00897B;padding:2px 8px;border-radius:10px;font-weight:700">OUTBOUND SURGE</span></div>
+      <div style="display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:16px">
+        <div>
+          <div style="font-size:36px;font-weight:800;color:#00897B;line-height:1">$327.2K</div>
+          <div style="font-size:12px;color:var(--muted);margin-top:4px">13 sales closed</div>
+        </div>
+        <div style="text-align:right">
+          <div style="font-size:20px;font-weight:700;color:var(--text)">$25.2K</div>
+          <div style="font-size:11px;color:var(--muted)">AACV per deal <span style="color:#00897B">+105% vs Jan</span></div>
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+        <div style="background:rgba(233,30,99,0.06);padding:10px 12px;border-radius:6px">
+          <div style="font-size:10px;color:var(--muted);margin-bottom:4px">INBOUND</div>
+          <div style="font-size:18px;font-weight:700;color:var(--text)">7 <span style="font-size:13px;color:var(--muted)">deals</span></div>
+          <div style="font-size:11px;color:var(--muted)">$94.5K ACV</div>
+        </div>
+        <div style="background:rgba(0,137,123,0.1);padding:10px 12px;border-radius:6px;border:1px solid rgba(0,137,123,0.2)">
+          <div style="font-size:10px;color:#00897B;font-weight:700;margin-bottom:4px">OUTBOUND ★</div>
+          <div style="font-size:18px;font-weight:700;color:var(--text)">11 <span style="font-size:13px;color:var(--muted)">deals</span></div>
+          <div style="font-size:11px;color:#00897B;font-weight:600">$232.7K ACV · $21.2K avg</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── ROLLING CHARTS + YoY ───────────────────────────────────────────── -->
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-bottom:28px">
+    <div class="kpi-card" style="padding:20px">
+      <div class="kpi-label" style="margin-bottom:14px">Rolling 3-Month — 2024</div>
       <div id="foundo-rolling-2024"></div>
-      <div style="font-size:11px;color:var(--muted);margin-top:12px">Peak window: May–Jul and Jun–Aug at 56 sales. Strong mid-year momentum then dip in Sep–Nov (45–46 range).</div>
+      <div style="font-size:10px;color:var(--muted);margin-top:10px;line-height:1.5">Peak: May–Jul + Jun–Aug (56). Strong mid-year, Q4 dip to 45–46.</div>
     </div>
-    <div class="kpi-card" style="padding:24px">
-      <div class="kpi-label" style="margin-bottom:16px">Rolling 3-Month Sales — 2025 H1 (Jan–Jun available)</div>
+    <div class="kpi-card" style="padding:20px">
+      <div class="kpi-label" style="margin-bottom:14px">Rolling 3-Month — 2025 H1</div>
       <div id="foundo-rolling-2025"></div>
-      <div style="font-size:11px;color:var(--muted);margin-top:12px">2025 H1 rolling peak at Apr–Jun: 56 (matching 2024 peak). Trajectory strong — Jan–Mar trough at 34 reflects Oct–Dec 2024 pipeline softness.</div>
+      <div style="font-size:10px;color:var(--muted);margin-top:10px;line-height:1.5">Apr–Jun peak: 56 (matches 2024). Jan–Mar trough at 34 = Oct–Dec 24 pipeline softness.</div>
     </div>
-  </div>
-
-  <!-- Revenue momentum with 90-day attribution framing -->
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:32px">
-    <div class="kpi-card" style="padding:24px">
-      <div class="kpi-label" style="margin-bottom:16px">Monthly Sales Volume — 2023–2026</div>
-      <div id="foundo-monthly-history"></div>
-    </div>
-    <div class="kpi-card" style="padding:24px">
-      <div class="kpi-label" style="margin-bottom:4px">CY26 Monthly Revenue & Deal Size</div>
-      <div class="kpi-sub" style="margin-bottom:16px">Jan–Feb 2026 actuals</div>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
-        <div style="background:var(--surface2);padding:16px;border-radius:8px">
-          <div style="font-size:10px;color:var(--muted);margin-bottom:8px">JANUARY</div>
-          <div style="font-size:22px;font-family:'Syne',sans-serif;color:var(--accent);font-weight:700">$184.7K</div>
-          <div style="font-size:11px;color:var(--muted);margin-top:4px">15 sales closed</div>
-          <div style="font-size:11px;color:var(--muted)">AACV $12,314</div>
-          <div style="font-size:11px;color:var(--muted)">Inbound 9 · Outbound 6</div>
-        </div>
-        <div style="background:var(--surface2);padding:16px;border-radius:8px">
-          <div style="font-size:10px;color:var(--muted);margin-bottom:8px">FEBRUARY</div>
-          <div style="font-size:22px;font-family:'Syne',sans-serif;color:var(--green);font-weight:700">$183.9K</div>
-          <div style="font-size:11px;color:var(--muted);margin-top:4px">13 sales closed</div>
-          <div style="font-size:11px;color:var(--muted)">AACV $14,149</div>
-          <div style="font-size:11px;color:var(--muted)">Inbound 4 · Outbound 9</div>
-        </div>
+    <div class="kpi-card" style="padding:20px">
+      <div class="kpi-label" style="margin-bottom:14px">YoY Sales — Jan to Jun</div>
+      <div style="display:flex;gap:12px;margin-bottom:10px;font-size:10px;flex-wrap:wrap">
+        <span style="display:flex;align-items:center;gap:4px"><span style="width:10px;height:10px;background:#6b7080;display:inline-block;border-radius:2px"></span>2023</span>
+        <span style="display:flex;align-items:center;gap:4px"><span style="width:10px;height:10px;background:#00BCD4;display:inline-block;border-radius:2px"></span>2024</span>
+        <span style="display:flex;align-items:center;gap:4px"><span style="width:10px;height:10px;background:#E91E63;display:inline-block;border-radius:2px"></span>2025</span>
+        <span style="display:flex;align-items:center;gap:4px"><span style="width:10px;height:10px;background:#00897B;display:inline-block;border-radius:2px"></span>2026</span>
       </div>
-      <div style="margin-top:16px;padding:12px;background:var(--surface2);border-radius:8px;font-size:11px;color:var(--muted);line-height:1.7">
-        <span style="color:var(--accent)">AACV trending up:</span> Feb AACV $14,149 vs Jan $12,314 (+15%) — outbound mix shift in Feb (9 of 13 sales) driving larger deal sizes, consistent with outbound superiority pattern.<br><br>
-        <span style="color:var(--accent)">90-day attribution:</span> Jan–Feb CY26 closes = deals created Oct–Nov CY25. The pipeline seeded now (Feb–Mar) will close Apr–May.
+      <div id="foundo-yoy-chart"></div>
+    </div>
+  </div>
+
+  <!-- Monthly history (full width) -->
+  <div class="kpi-card" style="padding:20px;margin-bottom:28px">
+    <div class="kpi-label" style="margin-bottom:14px">Monthly Sales Volume — All Years (2023–2026)</div>
+    <div style="display:flex;gap:12px;margin-bottom:12px;font-size:10px;flex-wrap:wrap">
+      <span style="display:flex;align-items:center;gap:4px"><span style="width:10px;height:10px;background:#6b7080;display:inline-block;border-radius:2px"></span>2023</span>
+      <span style="display:flex;align-items:center;gap:4px"><span style="width:10px;height:10px;background:#00BCD4;display:inline-block;border-radius:2px"></span>2024</span>
+      <span style="display:flex;align-items:center;gap:4px"><span style="width:10px;height:10px;background:#E91E63;display:inline-block;border-radius:2px"></span>2025</span>
+      <span style="display:flex;align-items:center;gap:4px"><span style="width:10px;height:10px;background:#00897B;display:inline-block;border-radius:2px"></span>2026</span>
+    </div>
+    <div id="foundo-monthly-history"></div>
+  </div>
+
+  <!-- ── ROLLING READ (prominent implications block) ─────────────────────── -->
+  <div style="background:linear-gradient(135deg,rgba(233,30,99,0.06),rgba(156,39,176,0.06));border:1px solid rgba(233,30,99,0.2);border-radius:12px;padding:24px">
+    <div style="font-size:13px;font-weight:700;color:#E91E63;margin-bottom:16px;display:flex;align-items:center;gap:8px">
+      <span style="font-size:16px">🔍</span> Rolling Analysis Read — What the Data Tells You Now
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+      <div style="padding:16px;background:white;border-radius:8px;border-left:3px solid #E91E63">
+        <div style="font-size:11px;font-weight:700;color:#E91E63;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px">Revenue Quality ↑ Despite Volume Plateau</div>
+        <div style="font-size:12px;color:var(--text);line-height:1.6">Jan–Feb window = 28 sales at $512K ACV. Fewer deals than 2025 H1 average but AACV rising fast ($12.3K → $25.2K). Outbound mix shift is concentrating revenue in fewer, larger deals — a structural improvement.</div>
+      </div>
+      <div style="padding:16px;background:white;border-radius:8px;border-left:3px solid #00897B">
+        <div style="font-size:11px;font-weight:700;color:#00897B;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px">Pipeline Signal — Watch Apr–May Closely</div>
+        <div style="font-size:12px;color:var(--text);line-height:1.6">Feb–Mar pipeline activity seeds Apr–May closes. If outbound sequences seeded in Feb–Mar are converting at 2025 rates, Apr–May should deliver 20–26 sales. If AACV holds at $18K+, that window = $360K–$470K — a new monthly record.</div>
+      </div>
+      <div style="padding:16px;background:white;border-radius:8px;border-left:3px solid #FF6B35">
+        <div style="font-size:11px;font-weight:700;color:#FF6B35;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px">Jan 26 = Best January on Record</div>
+        <div style="font-size:12px;color:var(--text);line-height:1.6">Jan 2026: 15 sales vs Jan 2025: 8, Jan 2024: 9, Jan 2023: 10. CY26 Jan is a clear break from the historical Jan trough pattern — suggests either improved pipeline seeding from CY25 H2 investment or a structural outbound uplift.</div>
+      </div>
+      <div style="padding:16px;background:white;border-radius:8px;border-left:3px solid #9C27B0">
+        <div style="font-size:11px;font-weight:700;color:#9C27B0;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px">Inbound Stability + Outbound Upside</div>
+        <div style="font-size:12px;color:var(--text);line-height:1.6">Inbound averaging ~8 deals/month (consistent with 2024–25). All incremental growth is outbound. If inbound can be lifted via brand awareness investment, the combined engine accelerates significantly. The $2M+ annual threshold is achievable without needing to increase inbound volume.</div>
       </div>
     </div>
   </div>
 
-  <!-- Year-on-year comparison -->
-  <div class="kpi-card" style="padding:24px;margin-bottom:24px">
-    <div class="kpi-label" style="margin-bottom:16px">Year-on-Year Sales Volume Comparison — Same Months</div>
-    <div id="foundo-yoy-chart"></div>
-    <div style="display:flex;gap:16px;margin-top:12px;font-size:10px;color:var(--muted)">
-      <span style="display:flex;align-items:center;gap:5px"><span style="width:12px;height:3px;background:#6b7080;display:inline-block;border-radius:2px"></span>2023</span>
-      <span style="display:flex;align-items:center;gap:5px"><span style="width:12px;height:3px;background:var(--accent2);display:inline-block;border-radius:2px"></span>2024</span>
-      <span style="display:flex;align-items:center;gap:5px"><span style="width:12px;height:3px;background:var(--accent);display:inline-block;border-radius:2px"></span>2025</span>
-      <span style="display:flex;align-items:center;gap:5px"><span style="width:12px;height:3px;background:var(--green);display:inline-block;border-radius:2px"></span>2026</span>
-    </div>
-  </div>
-
-  <!-- Rolling window interpretation -->
-  <div class="insight" style="--insight-color:var(--green)">
-    <div class="insight-title">Rolling Analysis Read: What the 90-Day Window Tells You Now</div>
-    <div class="insight-text">The Feb CY26 data point closes the Nov–Jan rolling window at 28 sales (15+13). Comparing to the same window in 2024 (Nov–Jan not available) and 2025 (Jan–Mar = 34), the pace looks slightly below 2025 H1. However, the revenue story is different — AACV is rising ($12.3K → $14.1K), meaning fewer but larger deals. The critical window to watch: the May–Jun close data will reveal whether Oct–Nov CY25 pipeline activity (which drove outbound dominance in Feb) translates to a strong Q2. If May–Jun closes ≥26 sales at $13K+ AACV, FoundU is on track for $2M+ annualised.</div>
-  </div>
 </div>
-  <!-- Rolling window interpretation -->
-  <div class="insight" style="--insight-color:var(--green)">
-    <div class="insight-title">Rolling Analysis Read: What the 90-Day Window Tells You Now</div>
-    <div class="insight-text">The Feb CY26 data point closes the Nov–Jan rolling window at 28 sales (15+13). Comparing to the same window in 2024 (Nov–Jan not available) and 2025 (Jan–Mar = 34), the pace looks slightly below 2025 H1. However, the revenue story is different — AACV is rising ($12.3K → $14.1K), meaning fewer but larger deals. The critical window to watch: the May–Jun close data will reveal whether Oct–Nov CY25 pipeline activity (which drove outbound dominance in Feb) translates to a strong Q2. If May–Jun closes ≥26 sales at $13K+ AACV, FoundU is on track for $2M+ annualised.</div>
-  </div>
 </div>
 
 <!-- ACV:CAC RATIOS TAB -->
@@ -1782,37 +1850,66 @@ acvData.forEach(d => {
     </div>`;
 });
 
-// CHR Monthly Chart
+// CHR Monthly Chart — CY25 full year + CY26 Jan & Feb
 const chrData = [
-  { m:'Jan', leads:188, opps:101, deals:21 },
-  { m:'Feb', leads:319, opps:202, deals:27 },
-  { m:'Mar', leads:369, opps:256, deals:39 },
-  { m:'Apr', leads:376, opps:220, deals:39 },
-  { m:'May', leads:578, opps:223, deals:35 },
-  { m:'Jun', leads:949, opps:221, deals:43 },
-  { m:'Jul', leads:363, opps:188, deals:32 },
-  { m:'Aug', leads:659, opps:236, deals:32 },
-  { m:'Sep', leads:561, opps:205, deals:37 },
-  { m:'Oct', leads:450, opps:213, deals:37 },
-  { m:'Nov', leads:308, opps:152, deals:34 },
-  { m:'Dec', leads:121, opps:111, deals:20 },
+  { m:'Jan 25',  leads:188, opps:101, deals:21, cy26:false },
+  { m:'Feb 25',  leads:319, opps:202, deals:27, cy26:false },
+  { m:'Mar 25',  leads:369, opps:256, deals:39, cy26:false },
+  { m:'Apr 25',  leads:376, opps:220, deals:39, cy26:false },
+  { m:'May 25',  leads:578, opps:223, deals:35, cy26:false },
+  { m:'Jun 25',  leads:949, opps:221, deals:43, cy26:false },
+  { m:'Jul 25',  leads:363, opps:188, deals:32, cy26:false },
+  { m:'Aug 25',  leads:659, opps:236, deals:32, cy26:false },
+  { m:'Sep 25',  leads:561, opps:205, deals:37, cy26:false },
+  { m:'Oct 25',  leads:450, opps:213, deals:37, cy26:false },
+  { m:'Nov 25',  leads:308, opps:152, deals:34, cy26:false },
+  { m:'Dec 25',  leads:121, opps:111, deals:20, cy26:false },
+  { m:'Jan 26',  leads:121, opps:140, deals:19, cy26:true  },
+  { m:'Feb 26',  leads:167, opps:187, deals:27, cy26:true  },
 ];
 const maxLeads = Math.max(...chrData.map(d=>d.leads));
 const chrContainer = document.getElementById('chr-monthly-chart');
-chrContainer.innerHTML = '<div style="display:flex;gap:8px;margin-bottom:12px;font-size:10px;color:var(--muted)"><span style="display:flex;align-items:center;gap:5px"><span style="width:12px;height:3px;background:var(--accent);display:inline-block;border-radius:2px"></span>Leads</span><span style="display:flex;align-items:center;gap:5px"><span style="width:12px;height:3px;background:var(--accent2);display:inline-block;border-radius:2px"></span>Opps</span><span style="display:flex;align-items:center;gap:5px"><span style="width:12px;height:3px;background:var(--green);display:inline-block;border-radius:2px"></span>Deals</span></div>';
-chrData.forEach(d => {
+
+// Legend
+chrContainer.innerHTML = `<div style="display:flex;flex-wrap:wrap;gap:14px;margin-bottom:14px;font-size:11px;color:var(--muted)">
+  <span style="display:flex;align-items:center;gap:5px"><span style="width:12px;height:3px;background:#E91E63;display:inline-block;border-radius:2px"></span>Leads</span>
+  <span style="display:flex;align-items:center;gap:5px"><span style="width:12px;height:3px;background:#00BCD4;display:inline-block;border-radius:2px"></span>Opps</span>
+  <span style="display:flex;align-items:center;gap:5px"><span style="width:12px;height:3px;background:#00897B;display:inline-block;border-radius:2px"></span>Deals</span>
+  <span style="display:flex;align-items:center;gap:5px;margin-left:8px"><span style="width:12px;height:12px;background:rgba(156,39,176,0.12);border:1.5px dashed #9C27B0;display:inline-block;border-radius:2px"></span>CY26</span>
+</div>`;
+
+// Separator before CY26 months
+let addedSep = false;
+chrData.forEach((d, i) => {
   const lp = (d.leads/maxLeads*100).toFixed(1);
   const op = (d.opps/maxLeads*100).toFixed(1);
   const dp = (d.deals/maxLeads*100).toFixed(1);
+  const bg = d.cy26 ? 'rgba(156,39,176,0.06)' : 'transparent';
+  const border = d.cy26 ? 'border-left:3px solid #9C27B0;padding-left:8px;margin-left:-8px;' : '';
+  const lCol = d.cy26 ? '#9C27B0' : '#E91E63';
+  const oCol = d.cy26 ? '#FF6B35' : '#00BCD4';
+  const dCol = d.cy26 ? '#7B1FA2' : '#00897B';
+
+  if(d.cy26 && !addedSep) {
+    addedSep = true;
+    chrContainer.innerHTML += '<div style="height:1px;background:rgba(156,39,176,0.3);margin:10px 0;position:relative"><span style="position:absolute;right:0;top:-9px;font-size:9px;font-weight:700;color:#9C27B0;letter-spacing:1px;text-transform:uppercase;background:white;padding:0 4px">CY26</span></div>';
+  }
+
   chrContainer.innerHTML += `
-    <div style="margin-bottom:6px">
-      <div style="font-size:10px;color:var(--muted);margin-bottom:3px">${d.m}</div>
+    <div style="margin-bottom:7px;${border}background:${bg};border-radius:3px;padding:2px 0">
+      <div style="font-size:10px;font-weight:600;color:${d.cy26 ? '#9C27B0' : 'var(--muted)'};margin-bottom:3px">${d.m}</div>
       <div style="display:flex;flex-direction:column;gap:2px">
-        <div style="height:14px;background:var(--surface2);border-radius:2px;overflow:hidden"><div style="height:100%;width:${lp}%;background:var(--accent);opacity:.8;animation:barIn 1s forwards"></div></div>
-        <div style="height:14px;background:var(--surface2);border-radius:2px;overflow:hidden"><div style="height:100%;width:${op}%;background:var(--accent2);opacity:.8;animation:barIn 1.2s forwards"></div></div>
         <div style="height:14px;background:var(--surface2);border-radius:2px;overflow:hidden;position:relative">
-          <div style="height:100%;width:${dp}%;background:var(--green);opacity:.9;animation:barIn 1.4s forwards"></div>
-          <span style="position:absolute;right:4px;top:0;font-size:9px;color:var(--muted);line-height:14px">${d.deals} deals</span>
+          <div style="height:100%;width:${lp}%;background:${lCol};opacity:.75;animation:barIn 1s forwards"></div>
+          <span style="position:absolute;left:6px;top:0;font-size:9px;font-weight:600;color:#fff;line-height:14px">${d.leads}</span>
+        </div>
+        <div style="height:14px;background:var(--surface2);border-radius:2px;overflow:hidden;position:relative">
+          <div style="height:100%;width:${op}%;background:${oCol};opacity:.75;animation:barIn 1.1s forwards"></div>
+          <span style="position:absolute;left:6px;top:0;font-size:9px;font-weight:600;color:#fff;line-height:14px">${d.opps}</span>
+        </div>
+        <div style="height:14px;background:var(--surface2);border-radius:2px;overflow:hidden;position:relative">
+          <div style="height:100%;width:${dp}%;background:${dCol};opacity:.85;animation:barIn 1.2s forwards"></div>
+          <span style="position:absolute;left:6px;top:0;font-size:9px;font-weight:600;color:#fff;line-height:14px">${d.deals}</span>
         </div>
       </div>
     </div>`;
@@ -2034,7 +2131,7 @@ aacvSeasonalData.forEach(d => {
       <div style="display:flex;flex-direction:column;gap:2px">
         <div style="height:12px;background:var(--surface2);border-radius:2px;overflow:hidden;position:relative">
           <div style="height:100%;width:${ap}%;background:${acolor};opacity:.8"></div>
-          <span style="position:absolute;right:4px;top:0;font-size:9px;line-height:12px;color:var(--bg)">$${(d.aacv/1000).toFixed(1)}K AACV</span>
+          <span style="position:absolute;right:4px;top:0;font-size:9px;line-height:12px;color:#fff;font-weight:600">$${(d.aacv/1000).toFixed(1)}K</span>
         </div>
         <div style="height:8px;background:var(--surface2);border-radius:2px;overflow:hidden">
           <div style="height:100%;width:${dp}%;background:${dcolor};opacity:.5"></div>
@@ -2102,25 +2199,31 @@ const fouHistoryData = [
 ];
 const maxFou = 31;
 const fouHistEl = document.getElementById('foundo-monthly-history');
+// Render as compact grouped horizontal bars — full width, 2-col month grid
+fouHistEl.style.display = 'grid';
+fouHistEl.style.gridTemplateColumns = 'repeat(6,1fr)';
+fouHistEl.style.gap = '8px';
 fouHistoryData.forEach(d => {
-  const getBar = (val, color) => {
-    if(val === null) return `<div style="height:10px;background:transparent"></div>`;
-    const p = (val/maxFou*100).toFixed(1);
-    return `<div style="height:10px;background:var(--surface2);border-radius:2px;overflow:hidden;position:relative"><div style="height:100%;width:${p}%;background:${color};opacity:.8"></div><span style="position:absolute;right:3px;top:0;font-size:8px;color:var(--muted);line-height:10px">${val}</span></div>`;
-  };
-  fouHistEl.innerHTML += `
-    <div style="margin-bottom:4px">
-      <div style="font-size:10px;color:var(--muted);margin-bottom:2px">${d.m}</div>
-      <div style="display:flex;flex-direction:column;gap:2px">
-        ${getBar(d.y23,'#6b7080')}
-        ${getBar(d.y24,'var(--accent2)')}
-        ${getBar(d.y25,'#E91E63')}
-        ${getBar(d.y26,'#00897B')}
-      </div>
-    </div>`;
+  const vals = [
+    {v:d.y23, c:'#B0BEC5'},
+    {v:d.y24, c:'#00BCD4'},
+    {v:d.y25, c:'#E91E63'},
+    {v:d.y26, c:'#00897B'},
+  ];
+  const iscy26 = d.y26 !== null;
+  fouHistEl.innerHTML += `<div style="background:${iscy26?'rgba(0,137,123,0.05)':'transparent'};border-radius:6px;padding:6px">
+    <div style="font-size:10px;font-weight:${iscy26?'700':'600'};color:${iscy26?'#00897B':'var(--muted)'};margin-bottom:5px">${d.m}</div>
+    <div style="display:flex;flex-direction:column;gap:2px">
+      ${vals.map(b => b.v === null ? '' : `
+      <div style="height:12px;background:var(--surface2);border-radius:2px;overflow:hidden;position:relative">
+        <div style="height:100%;width:${(b.v/maxFou*100).toFixed(0)}%;background:${b.c};opacity:.85"></div>
+        <span style="position:absolute;left:4px;top:0;font-size:8px;font-weight:700;color:#fff;line-height:12px">${b.v}</span>
+      </div>`).join('')}
+    </div>
+  </div>`;
 });
 
-// YoY comparison for Jan-Jun
+// YoY comparison for Jan-Jun — redesigned as horizontal grouped bars for readability
 const fouYoYData = [
   { m:'Jan', y23:10, y24:9, y25:8, y26:15 },
   { m:'Feb', y23:14, y24:13, y25:13, y26:13 },
@@ -2131,18 +2234,23 @@ const fouYoYData = [
 ];
 const maxYoYFou = 31;
 const fouYoYEl = document.getElementById('foundo-yoy-chart');
+const yoyColors = ['#B0BEC5','#00BCD4','#E91E63','#00897B'];
+const yoyYears = ['2023','2024','2025','2026'];
 fouYoYData.forEach(d => {
-  const bars = [
-    {val:d.y23, c:'#6b7080'}, {val:d.y24, c:'var(--accent2)'},
-    {val:d.y25, c:'#E91E63'}, {val:d.y26, c:'#00897B'}
-  ];
-  fouYoYEl.innerHTML += `
-    <div style="margin-bottom:8px">
-      <div style="font-size:10px;color:var(--muted);margin-bottom:3px">${d.m}</div>
-      <div style="display:flex;gap:3px;height:24px;align-items:flex-end">
-        ${bars.map(b => b.val ? `<div style="flex:1;height:${(b.val/maxYoYFou*100).toFixed(0)}%;background:${b.c};border-radius:2px 2px 0 0;opacity:.85;display:flex;align-items:flex-start;justify-content:center;font-size:8px;color:var(--bg);padding-top:2px">${b.val}</div>` : `<div style="flex:1;background:var(--surface2);border-radius:2px;opacity:.3"></div>`).join('')}
-      </div>
-    </div>`;
+  const vals = [d.y23, d.y24, d.y25, d.y26];
+  fouYoYEl.innerHTML += `<div style="margin-bottom:10px">
+    <div style="font-size:10px;font-weight:600;color:var(--muted);margin-bottom:4px">${d.m}</div>
+    <div style="display:flex;flex-direction:column;gap:2px">
+      ${vals.map((v,i) => v === null ? '' : `
+      <div style="display:flex;align-items:center;gap:6px">
+        <div style="width:28px;font-size:9px;color:${yoyColors[i]};font-weight:700">${yoyYears[i]}</div>
+        <div style="flex:1;height:13px;background:var(--surface2);border-radius:2px;overflow:hidden;position:relative">
+          <div style="height:100%;width:${(v/maxYoYFou*100).toFixed(0)}%;background:${yoyColors[i]};opacity:.85;border-radius:2px"></div>
+          <span style="position:absolute;left:6px;top:0;font-size:9px;font-weight:700;color:#fff;line-height:13px">${v}</span>
+        </div>
+      </div>`).join('')}
+    </div>
+  </div>`;
 });
 
 const brandData = [
