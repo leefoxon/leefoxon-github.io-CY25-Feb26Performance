@@ -1304,7 +1304,7 @@
       </div>
       <div class="insight" style="--insight-color:#fbbf24">
         <div class="insight-title">5 — H2 Revenue Recovery</div>
-        <div class="insight-text">CY25 H2 ACV underperformed budget significantly. Nov was 48% of budget ($252K vs $526K). This appears structural, not just seasonal. Review SDR/BDM resource allocation in Q3–Q4.</div>
+        <div class="insight-text">CY25 H2 ACV underperformed budget significantly — Nov was 48% of target. Primary cause: loss of top-performing BDM not backfilled in-year. Recoverable with the right hire. AACV compression also driven by small-employer mix and multi-product discounting; both correctable.</div>
       </div>
       <div class="insight" style="--insight-color:#f87171">
         <div class="insight-title">6 — NZ/enableHR Track</div>
@@ -1645,7 +1645,7 @@
   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:28px">
     <div class="kpi-card" style="padding:20px">
       <div class="kpi-label" style="margin-bottom:6px">HR & SAFETY AU — CY25</div>
-      <div style="font-size:36px;font-family:'Syne',sans-serif;color:var(--accent);font-weight:700">2.7x</div>
+      <div style="font-size:36px;font-family:'Syne',sans-serif;color:var(--accent);font-weight:700">1.68x</div>
       <div class="kpi-sub" style="margin-top:4px">ACV:CAC ratio · $11,174 AACV / $4,195 CAC</div>
       <div style="margin-top:12px;padding-top:12px;border-top:1px solid var(--border)">
         <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:4px"><span>Total Spend</span><span style="color:var(--text)">$1,661,214</span></div>
@@ -1656,7 +1656,7 @@
     </div>
     <div class="kpi-card" style="padding:20px">
       <div class="kpi-label" style="margin-bottom:6px">FOUNDO — CY25 (Apr–Dec)</div>
-      <div style="font-size:36px;font-family:'Syne',sans-serif;color:var(--green);font-weight:700">3.5x</div>
+      <div style="font-size:36px;font-family:'Syne',sans-serif;color:var(--green);font-weight:700">0.69x<span style="font-size:14px;color:var(--mid);margin-left:6px">IB only</span></div>
       <div class="kpi-sub" style="margin-top:4px">ACV:CAC ratio · $13,967 AACV / $4,033 CAC</div>
       <div style="margin-top:12px;padding-top:12px;border-top:1px solid var(--border)">
         <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:4px"><span>Total Spend</span><span style="color:var(--text)">$661,335</span></div>
@@ -1684,8 +1684,8 @@
       <div class="kpi-label" style="margin-bottom:14px">ACV:CAC Ratio — CY25 vs CY26 YTD</div>
       <div id="cac-yoy-chart"></div>
       <div style="font-size:10px;color:var(--muted);margin-top:12px;line-height:1.7">
-        CHR ratio deteriorating: <span style="color:var(--red)">2.7x → 1.8x YoY</span> — CAC up 43% ($4,195 → $6,003) as NZ budget absorbed into AU with lower H1 efficiency.<br>
-        FoundU holding: <span style="color:var(--green)">3.5x → 3.0x</span> — marginal compression, still best ratio in portfolio.<br>
+        CHR inbound-only ACV:CAC: <span style="color:var(--red)">1.68x CY25 → ~1.2x CY26 YTD</span> — correct methodology uses inbound ACV only vs inbound spend (prev. reported as 2.7x included outbound revenue).<br>
+        FoundU inbound-only: <span style="color:var(--red)">0.69x CY25</span> — inbound demand gen generates less first-year ACV than it costs. Blended ratio (all ACV vs IB spend) = 2.57x. FoundU's close engine is outbound; inbound seeds pipeline only.<br>
         ISO surging: <span style="color:var(--accent)">~1.6x → 3.0x YTD</span> — Feb outbound surge driving dramatic efficiency improvement.
       </div>
     </div>
